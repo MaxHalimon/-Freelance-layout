@@ -1,0 +1,1 @@
+function SOrderConfirmCallback(r){return $("#callback").html('<p style="margin-top: 8px">Спасибо за заявку! Наши операторы перезвонят вам в течении 10 минут!</p>'),!1}sErrorNameSelector="",sErrorAddressSelector="",sErrorPhoneSelector="",sErrorStyle=null,bDisableValidation=!1,fFunctionValidation="",bReturnFlag=!1,bConfirmFlag=!1,$(document).ready(function(){});
