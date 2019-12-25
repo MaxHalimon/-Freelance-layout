@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wripper {
+  width: 90vw;
+  border: 1px gray solid;
+  border-top: 3px solid #f2ac04;
+  margin: auto;
+  margin-top: 10px;
+}
+.header {
+  width: 100%
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin: 50px auto;
+}
+.header_logo {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px gray solid;
+  padding: 10px;
+}
+.header_logo img {
+  margin-right: 30px;
+}
+.header_logo h1 {
+  color: black;
+  font-family: Verdana;
+  font-size: 40px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+.header_text {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.header_text h1 {
+  color: #f2ac04;
+  font-family: 'Michroma', sans-serif;
+  font-weight: lighter;
+}
+.header_text h3 {
+  color: gray;
+  font-family: Verdana;
+  font-weight: lighter;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.menu {
+  margin: auto;
+  width: 90%;
+  height: 50px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu h2 {
+  font-family: 'Michroma', monospace;
+  font-size: 14px;
+  font-weight: lighter;
+  color: gray;
+}
+.menu a {
+  text-decoration: none;
+}
+.menu a :hover {
+  color: black;
+}
+.carousel {
+  width: 80%;
+  margin: 100px auto;
+}
+.carousel .item {
+  background: #ff3f4d;
+  height: 250px;
+}
+.carousel .item.purple {
+  background: purple;
+}
+.carousel h2 {
+  color: #fff;
+  text-align: center;
+  line-height: 250px;
+  font-style: italic;
+  font-weight: 300;
+}
+.middle_block {
+  height: 250px;
+  width: 90%;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  margin: 40px auto 0 auto;
+  border-top: 1px gray solid;
+  border-bottom: 1px gray solid;
+  display: flex;
+  flex-direction: row;
+}
+.our_clients .border_words {
+  font-family: 'Michroma';
+  font-size: 12px;
+  color: gray;
+  position: relative;
+  top: -78px;
+  left: 20px;
+  background-color: #fff;
+  padding: 0 10px;
+}
+@media screen and (max-width: 1124px) {
+.middle_block {
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+.middle_block .about_us {
+  border: none;
+  margin: 40px 0;
+}
+}
+.last_news, .about_us, .contact_us {
+width: 33%;
+padding: 0 16px;
+}
+.middle_block .about_us {
+  border-left: 1px gray solid;
+  border-right: 1px gray solid;
+}
+.middle_block .contact_us h4 {
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 60px;
+  color: gray;
+}
+.last_news h1, .about_us h1, .contact_us h1 {
+font-size: 20px;
+font-family: 'Michroma';
+margin-bottom: 20px;
+}
+.news_one, .news_two, .news_three {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px gray dashed;
+  height: 30%;
+}
+.last_news .news_three {
+  border: none;
+}
+.last_news .date {
+height: 33%;
+margin: 10px;
+padding: 7px;
+border-right: 1px gray solid;
+}
+.last_news .date h2 {
+  font-size: 20px;
+  color: gray;
+  font-family: verdana;
+  font-weight: lighter;
+}
+.last_news .date h4 {
+  font-size: 14px;
+  color: #f2ac04;
+}
+.last_news .text {
+padding: 5px;
+}
+.last_news .text h4 {
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+.last_news .text p {
+  font-family: verdana;
+  font-size: 12px;
+  font-weight: lighter;
+  font-style: oblique;
+  color: gray;
+}
+.middle_block p {
+  color: gray;
+}
+.our_clients {
+  width: 90%;
+  height: 150px;
+  margin: auto;
+  border-bottom: 1px gray solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  height: 200px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .header_logo {
+  border: none;
+}
+.footer .header_logo img {
+  height: 20px;
+}
+.footer .header_logo h1 {
+  font-size: 20px;
+}
+.footer h4 {
+  font-family: 'Michroma';
+  font-size: 10px;
+  font-weight: lighter;
+  color: gray;
+  margin-top: 40px;
+}
