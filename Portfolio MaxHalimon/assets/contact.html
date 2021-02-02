@@ -68,64 +68,43 @@
                          <h2>Hello, if you interest working together just send message</h2>
                     </div>
 
-                   <form class="g-form" id="g-form-1" method="POST" action="" autocomplete="off">
-
-<h2 class="g-form__title g-form__title_respond"></h2>
+                 <form class="g-form" id="g-form-1" method="POST" action="" autocomplete="off">
+  <h2 class="g-form__title g-form__title_main">Оставьте заявку прямо сейчас и получите скидку 10%</h2>
+  <h2 class="g-form__title g-form__title_respond"></h2>
   <div class="g-form__preloader"></div>
-
-                         <div class="col-md-6 col-sm-6">
-
-                              <fieldset class="g-form__input-wrapper">
-                              <input class="g-form__input g-form__input_name" id="name" type="text" name="Имя" class="form-control" placeholder="Name">
-                              </fieldset>
-
-                         </div>
-
-                         <div class="col-md-6 col-sm-6">
-
-                              <fieldset class="g-form__input-wrapper">
-                              <input type="email" id="email" class="form-control" name="Email" placeholder="Email">
-                              </fieldset>   
-
-                         </div>
-                         <div class="col-md-6 col-sm-6">
+  <div class="g-form__inputs">
+    <fieldset class="g-form__input-wrapper">
+      <input class="g-form__input g-form__input_name" id="name" name="Имя" placeholder="Введите ваше имя" required>
+    </fieldset>
  
-                              <fieldset class="g-form__input-wrapper">
-                              <input class="g-form__input g-form__input_tel" id="tel" type="telephone" name="Телефон" class="form-control" placeholder="Phone Number">
-                              </fieldset>
-
-                         </div>
-                         <div class="col-md-6 col-sm-6">
-
-                            <fieldset class="g-form__input-wrapper">
-                              <select id="arbitrary-field" class="form-control" name="Произвольное поле">
-                                   <option>Budget Select</option>
-                                   <option>$100 to $150</option>
-                                   <option>$200 to $250</option>
-                                   <option>$300 to more</option>
-                              </select>
-                            </fieldset>
-
-                         </div>
-
-                         <div class="col-md-12 col-sm-12"> 
-
-
-                              <textarea id="message" class="form-control" rows="5" name="Сообщение" placeholder="Project Details"></textarea>
-
-
-                         </div>
-
-  <fieldset class="g-form__input-wrapper g-form__input-wrapper_hidden">
-      <label for="honeypot"></label>
+    <fieldset class="g-form__input-wrapper">
+      <input class="g-form__input g-form__input_tel" id="tel" name="Телефон" placeholder="Введите ваш телефон">
+    </fieldset>
+ 
+    <fieldset class="g-form__input-wrapper">
+      <input id="email" name="Email" type="email" value=""
+      required placeholder="Введите ваш email"/>
+    </fieldset>
+ 
+    <fieldset class="g-form__input-wrapper">
+      <input id="arbitrary-field" name="Произвольное поле" placeholder="Произвольное поле для теста">
+    </fieldset>
+ 
+    <fieldset class="g-form__input-wrapper">
+      <textarea id="message" name="Сообщение" rows="10"
+      placeholder="Введите сообщение"></textarea>
+    </fieldset>
+ 
+    <fieldset class="g-form__input-wrapper g-form__input-wrapper_hidden">
+      <label for="honeypot">Помогает бороться со спамом. Должно быть пустым!</label>
       <input id="honeypot" type="text" name="honeypot" value="">
     </fieldset>
-
-                         <div class="col-md-3 col-sm-4">
-                              <input class="g-form__button" id="button" type="submit" class="form-control" value="Send Message">
-                         </div>
-                    </form> 
-
+ 
+    <div class="g-form__button-wrapper">
+      <button class="g-form__button">Получить скидку</button>
+    </div>
+  </div>
+</form>
                </div>
 
           </div>
@@ -181,7 +160,7 @@
 
 
                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-                 <script src="/js/g-form.js"></script>
+                 <script src="js/g-form.js"></script>
 
 </body>
 </html>
@@ -189,13 +168,6 @@
           </div>
      </div>
 </footer>
-
-
-<!-- SCRIPTS -->
-
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/custom.js"></script>
 
 </body>
 </html>
